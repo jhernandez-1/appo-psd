@@ -19,6 +19,9 @@ header{
     padding: 15px 10%;
     background-color: #223047;
 }
+.marine-bg {
+    background-color: #223047;
+}
 .logo{
     width: 100px;
     cursor: pointer;
@@ -36,7 +39,7 @@ header{
     color: white;
     text-decoration: none;
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Dosis';
     font-size: medium;
 }
 .nav-links > li > a:hover{
@@ -47,6 +50,12 @@ header{
     background-color: #00fff0;
     padding: 10px;
     border-radius: 5px;
+}
+.title {
+    font: 39.43px/49.29px 'Dosis';
+}
+.paragraph {
+    font: 13.8px/28.59px 'Dosis';
 }
 .menu{
     color: white;
@@ -65,7 +74,6 @@ a{
     margin: 0 auto;
     width: 1024px;
     position: relative;
-    padding: 30px;
 }
 .intro {
     color: #fff;
@@ -120,6 +128,7 @@ a{
 /*New*/
 .benefits {
     color: #233148;
+    padding: 210px 0 120px;
 }
 
 .subtitle {
@@ -145,6 +154,7 @@ a{
     height: 315px;
     width: 1000px;
     padding: 5.520px;
+    text-align: center;
 }
 img{
     border-radius: 5px 5px 0 0;
@@ -157,6 +167,11 @@ img{
 }
 .card-container {
     display: flex;
+}
+
+.card h4 {
+    font: 17px 'Dosis';
+    text-align: center;
 }
 /*text2*/
 h2{
@@ -221,13 +236,15 @@ h5{
 .sec{
     text-align: center;
     width: 100%;
-    background-color: #223047;
-    height: 343px;
+    padding: 204px 0 225px 0;
 }
 .sec p{
     text-align: center;
-    height: 29px;
     font-size: 14px;
+    width: 740px;
+    color: #fff;
+    margin: 50px auto 0;
+    font: 14px/29px 'Dosis';
 }
 .sec-s{
     background-color: white;
@@ -237,9 +254,15 @@ h5{
 }
 .sec-s a{
     text-decoration: none;
+    font: 17px/50px 'Dosis';
+    padding: 15px 50px;
+    background-color: #00fff0;
+    color: #213f53;
+    transition: all ease-in-out .3s;
 }
 .sec-s a:hover{
     background-color: teal;
+    color: #fff;
 }
 .sec-ss{
     text-align: center;
@@ -366,6 +389,11 @@ sub{
     padding: 15px;
 }
 .api1{
+    display: flex;
+    align-items: center;
+}
+
+
+.footer-end {
     background-color: #223047;
-    width: 100%;
 }
